@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+
+div {
+  height: 100%;
+  width: 100%;
+}
+
+.top {
+  background-color: #fbfad3;
+
+
+}
+
+.middle {
+  background-color: #c6e377;
+  border-width: 20px;
+  margin-left: 260px;
+}
+
+.bottom {
+  background-color: #729d39;
+  border-width: 10px;
+    margin-left: 480px;
+}
