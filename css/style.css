@@ -1,32 +1,68 @@
 body {
   margin: 0;
+ text-align: center;
+font-family: 'Merriweather', serif;
 }
-
 h1 {
-  margin: 0;
-  display: inline-block;
+    display: inline-block;
+  margin: 0 auto 0 auto;
+  font-family: 'Great Vibes', cursive;
+   font-size: 70px;
+   color: #45b29a;
+}
+img {
+
+  margin-top: 10px;
+
 }
 
+.profile-img{
+    border-radius: 50%;
+}
+
+.skill-img{
+  height: 200px;
+  width: 200px;
+}
 
 div {
-  height: 100%;
-  width: 100%;
+
+}
+
+hr {
+  border-color: lightgrey;
+  border-style: dotted none none;
+  border-width: 10px;
+  height: 0;
+  width: 5%;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .top {
   background-color: #fbfad3;
-
+  padding-top: 100px;
 
 }
 
 .middle {
   background-color: #c6e377;
-  border-width: 20px;
-  margin-left: 260px;
+
 }
 
 .bottom {
-  background-color: #729d39;
-  border-width: 10px;
-    margin-left: 480px;
+  background-color: #fbfad3;
+
+}
+
+.cloud1{
+  position: absolute;
+  left : 10%;
+  top : 30%;
+}
+
+.cloud2{
+  position: absolute;
+  right : 10%;
+  top : 10%;
 }
