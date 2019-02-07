@@ -1,33 +1,51 @@
 body {
   margin: 0;
- text-align: center;
-font-family: 'Merriweather', serif;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
+
 h1 {
-    display: inline-block;
+  display: inline-block;
   margin: 0 auto 0 auto;
   font-family: 'Great Vibes', cursive;
-   font-size: 70px;
-   color: #45b29a;
+  font-size: 6rem;
+  color: #45b29a;
 }
+h2{
+  color: #1e836c;
+    font-size: 2.8rem;
+    font-weight: normal;
+}
+h3{
+  font-size: 2rem;
+color: #45b29a;
+font-weight: normal;
+}
+
+h4{
+  font-size: 2rem;
+  color: #45b29a;
+  font-weight: normal;
+}
+p{
+  font-size: 1.5rem;
+color: #545454;
+}
+
 img {
-
   margin-top: 10px;
-
 }
 
-.profile-img{
-    border-radius: 50%;
+.profile-img {
+  border-radius: 50%;
 }
 
-.skill-img{
+.skill-img {
   height: 200px;
   width: 200px;
 }
 
-div {
-
-}
+div {}
 
 hr {
   border-color: lightgrey;
@@ -40,29 +58,39 @@ hr {
 }
 
 .top {
-  background-color: #fbfad3;
-  padding-top: 100px;
-
+  background-color: #c6e377;
+  padding-top: 200px;
+  display: block;
+  height: 590px;
 }
 
 .middle {
-  background-color: #c6e377;
-
+  background-color: #fbfad3;
 }
 
 .bottom {
   background-color: #fbfad3;
-
 }
 
-.cloud1{
+.cloud1 {
   position: absolute;
-  left : 10%;
-  top : 30%;
+  left: 10%;
+  top: 30%;
 }
 
-.cloud2{
+.cloud2 {
   position: absolute;
-  right : 10%;
-  top : 10%;
+  right: 10%;
+  top: 10%;
+}
+
+.land{
+position: absolute;
+bottom: 0;
+left: 25%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: auto;
 }
